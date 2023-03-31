@@ -1,0 +1,112 @@
+/* Body and Heading */
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h3 {
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 50px 0 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  margin-right: 10px;
+  padding: 10px;
+  width: 70%;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Tasks */
+
+.task-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.task-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.task-container span {
+  color: #333;
+  font-size: 18px;
+}
+
+.task-container strike {
+  color: #aaa;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.link-container {
+  align-items: flex-end;
+  display: flex;
+}
+
+.link-container a {
+  color: #4CAF50;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+.link-container a.delete {
+  color: #e53935;
+}
+
+.link-container a:hover {
+  color: #3e8e41;
+}
+
+/* Center column */
+
+.centre-column {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
